@@ -1,6 +1,6 @@
 # Analyze Images
 
-<div class="hero-section" style="background-image: url('../assets/imageanalysis.png');">
+<div class="hero-section" style="background-image: url('../assets/imageanalysis.png'); background-size: cover; background-position: center;">
   <div class="hero-overlay">
     <div class="hero-content">
       <h1>Analyze Images</h1>
