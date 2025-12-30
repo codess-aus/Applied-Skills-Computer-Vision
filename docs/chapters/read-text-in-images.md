@@ -1,7 +1,7 @@
 # Read Text in Images
 
 <div class="hero-container">
-  <img src="../../assets/images/ocr.png" alt="OCR mind map" class="hero-image">
+  <img src="../../assets/images/OCR.png" alt="OCR mind map" class="hero-image">
 </div>
 
 ## Overview
