@@ -6,7 +6,7 @@
   margin: -24px -24px 32px -24px;
   overflow: hidden;
   border-radius: 0 0 8px 8px;
-  background: linear-gradient(135deg, #667eea 0%, #EB144C 100%);
+  background: linear-gradient(135deg, #EB144C 0%, #EB144C 100%);
 }
 
 .hero-image {
@@ -85,7 +85,7 @@
 }
 
 .content-section h2 {
-  background: linear-gradient(135deg, #667eea 0%, #EB144C 100%);
+  background: linear-gradient(135deg, #EB144C 0%, #EB144C 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -97,7 +97,7 @@
 /* Practice Questions Section */
 .practice-questions {
   background: linear-gradient(135deg, rgba(102, 126, 234, 0.05) 0%, rgba(118, 75, 162, 0.05) 100%);
-  border-left: 4px solid #667eea;
+  border-left: 4px solid #EB144C;
   padding: 24px;
   border-radius: 8px;
   margin: 24px 0;
@@ -105,7 +105,7 @@
 
 .practice-questions h3 {
   margin-top: 0;
-  color: #667eea;
+  color: #EB144C;
 }
 
 .practice-questions ol {
@@ -120,7 +120,7 @@
 /* Resources Section */
 .resources-section {
   background: linear-gradient(135deg, rgba(102, 126, 234, 0.03) 0%, rgba(118, 75, 162, 0.03) 100%);
-  border: 2px solid #667eea;
+  border: 2px solid #EB144C;
   border-radius: 8px;
   padding: 24px;
   margin: 32px 0;
@@ -149,7 +149,7 @@
 
 /* Dark mode adjustments */
 [data-md-color-scheme="slate"] .hero-section {
-  background: linear-gradient(135deg, #5568d3 0%, #EB144C 100%);
+  background: linear-gradient(135deg, #EB144C 0%, #EB144C 100%);
 }
 
 [data-md-color-scheme="slate"] .hero-overlay {
@@ -162,7 +162,7 @@
 
 [data-md-color-scheme="slate"] .resources-section {
   background: linear-gradient(135deg, rgba(102, 126, 234, 0.05) 0%, rgba(118, 75, 162, 0.05) 100%);
-  border-color: #7b93db;
+  border-color: #EB144C;
 }
 
 /* Admonition customization */
@@ -174,7 +174,7 @@
 
 .md-typeset .admonition.note,
 .md-typeset details.note {
-  border-color: #667eea;
+  border-color: #EB144C;
 }
 
 /* Smooth transitions */

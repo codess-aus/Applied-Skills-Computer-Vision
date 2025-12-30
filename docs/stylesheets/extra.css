@@ -1,8 +1,8 @@
 /* Additional custom styles for the site */
 :root {
-  --gradient-start: #667eea;
+  --gradient-start: #EB144C;
   --gradient-end: #764ba2;
-  --accent-color: #667eea;
+  --accent-color: #EB144C;
 }
 
 /* Smooth scroll behavior */
