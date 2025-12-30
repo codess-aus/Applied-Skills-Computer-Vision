@@ -127,8 +127,6 @@ graph LR
     style C fill:#764ba2
 ```
 
-<div class="practice-questions">
-
 ### 🎯 Practice Questions
 
 1. Spot the Scene!
@@ -170,8 +168,6 @@ You analyze a group photo and get tags: “Person,” “Smiling,” “Cat,” 
 10. Fun With Bounding Boxes!
 
 In object detection, why do computers use rectangles or boxes around things they spot? Bonus: Sketch a simple scene and imagine where the boxes would go!
-
-</div>
 
 ### Hands-On Exercise
 

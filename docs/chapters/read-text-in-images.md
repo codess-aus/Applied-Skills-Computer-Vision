@@ -220,6 +220,7 @@ Results are organized hierarchically:
 - [Language Support](https://learn.microsoft.com/en-us/azure/ai-services/computer-vision/language-support)
 - [OCR Best Practices](https://learn.microsoft.com/en-us/azure/ai-services/computer-vision/how-to/call-read-api)
 - [Sample Code Repository](https://github.com/Azure-Samples/cognitive-services-quickstart-code)
+- [Read Text in Images - Applied Skills](https://learn.microsoft.com/en-us/training/modules/read-text-images-documents-with-computer-vision-service/)
 
 ---
 
