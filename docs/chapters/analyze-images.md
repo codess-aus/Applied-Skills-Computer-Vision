@@ -9,6 +9,13 @@
 
 Image analysis is the foundation of computer vision. Azure AI Vision provides powerful capabilities to analyze images and extract valuable information including tags, descriptions, objects, brands, faces, and more.
 
+As shown in the above conceptual diagram, the Azure Vision service provides services that you can use to analyze images and:
+
+- Generate a caption for an image based on its contents.
+- Suggest appropriate tags to associate with an image.
+- Detect and locate common objects in an image.
+- Detect and locate people in an image.
+
 ## Topic Notes
 
 ### What is Image Analysis?
@@ -164,8 +171,6 @@ Try this exercise to reinforce your learning:
     4. Extract tags, description, and colors
     5. Display the results in a formatted output
 
-<div class="resources-section">
-
 ## 📚 Resources
 
 - [Azure AI Vision Documentation](https://learn.microsoft.com/en-us/azure/ai-services/computer-vision/)
@@ -174,8 +179,6 @@ Try this exercise to reinforce your learning:
 - [Azure AI Vision Pricing](https://azure.microsoft.com/en-us/pricing/details/cognitive-services/computer-vision/)
 - [Python SDK Documentation](https://learn.microsoft.com/en-us/python/api/azure-cognitiveservices-vision-computervision/)
 - [Best Practices Guide](https://learn.microsoft.com/en-us/azure/ai-services/computer-vision/how-to/image-retrieval)
-
-</div>
 
 ---
 
