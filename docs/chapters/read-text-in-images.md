@@ -31,22 +31,6 @@ You can think of OCR like giving your computer superhero vision:
 
 OCR isn’t just for printed stuff—it’s clever enough these days to read your messy handwriting, solve Sudoku puzzles from a camera snapshot, or even recognize numbers on old arcade machines!
 
----
-
-## Example
-
-Let’s say you have this image:
-
-```
-  +---------------------------+
-  |   Free Pizza Upstairs!    |
-  +---------------------------+
-```
-You point your phone, use OCR, and—**BAM!**—it tells you:  
-**"Free Pizza Upstairs!"** (And now you know exactly where to go 😁)
-
----
-
 **In short:**  
 OCR is the magical bridge between the world you can see and the world your computer can read. It unlocks hidden words everywhere! 
 
