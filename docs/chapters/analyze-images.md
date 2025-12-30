@@ -1,12 +1,6 @@
 # Analyze Images
 
-<div class="hero-section" style="background-image: url('../assets/imageanalysis.png'); background-size: cover; background-position: center;">
-  <div class="hero-overlay">
-    <div class="hero-content">
-      <h1>Analyze Images</h1>
-      <p>Extract meaningful insights and information from images using Azure AI Vision</p>
-    </div>
-  </div>
+<div class="hero-section" style="background-image: url('../assets/imageanalysis.png'); background-size: cover; background-position: center; background-repeat: no-repeat;">
 </div>
 
 ## Overview
