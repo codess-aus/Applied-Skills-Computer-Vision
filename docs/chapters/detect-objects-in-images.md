@@ -278,8 +278,6 @@ For real-time applications:
 | Overlapping detections | Adjust non-maximum suppression (NMS) threshold |
 | Class confusion | Add more diverse examples for confused classes |
 
-<div class="resources-section">
-
 ## 📚 Resources
 
 - [Azure AI Vision Object Detection](https://learn.microsoft.com/en-us/azure/ai-services/computer-vision/concept-object-detection)
@@ -288,8 +286,6 @@ For real-time applications:
 - [Best Practices for Object Detection](https://learn.microsoft.com/en-us/azure/ai-services/custom-vision-service/getting-started-improving-your-classifier)
 - [Understanding mAP and IoU](https://learn.microsoft.com/en-us/azure/ai-services/custom-vision-service/probability-threshold)
 - [Custom Vision API Reference](https://learn.microsoft.com/en-us/rest/api/customvision/)
-
-</div>
 
 ---
 

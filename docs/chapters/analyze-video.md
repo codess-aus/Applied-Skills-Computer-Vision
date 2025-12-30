@@ -265,8 +265,6 @@ All insights are timestamped:
     - Use face redaction for sensitive content
     - Control data retention policies
 
-<div class="resources-section">
-
 ## 📚 Resources
 
 - [Azure Video Indexer Documentation](https://learn.microsoft.com/en-us/azure/azure-video-indexer/)
@@ -275,8 +273,6 @@ All insights are timestamped:
 - [Custom Models Documentation](https://learn.microsoft.com/en-us/azure/azure-video-indexer/customize-person-model-overview)
 - [Embed Widgets Guide](https://learn.microsoft.com/en-us/azure/azure-video-indexer/video-indexer-embed-widgets)
 - [Video Indexer Pricing](https://azure.microsoft.com/en-us/pricing/details/video-indexer/)
-
-</div>
 
 ---
 

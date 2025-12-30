@@ -310,8 +310,6 @@ graph TB
     - **Privacy**: Don't attempt to recreate specific individuals
     - **Transparency**: Disclose when images are AI-generated
 
-<div class="resources-section">
-
 ## 📚 Resources
 
 - [Azure OpenAI DALL-E Documentation](https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/dall-e)
@@ -320,8 +318,6 @@ graph TB
 - [Prompt Engineering for Images](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/prompt-engineering)
 - [Content Filtering](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/content-filter)
 - [Azure OpenAI Pricing](https://azure.microsoft.com/en-us/pricing/details/cognitive-services/openai-service/)
-
-</div>
 
 ---
 

@@ -212,8 +212,6 @@ Results are organized hierarchically:
 - **Noise reduction**: Remove background noise and artifacts
 - **Binarization**: Convert to black and white for certain document types
 
-<div class="resources-section">
-
 ## 📚 Resources
 
 - [Read API Overview](https://learn.microsoft.com/en-us/azure/ai-services/computer-vision/overview-ocr)
@@ -222,8 +220,6 @@ Results are organized hierarchically:
 - [Language Support](https://learn.microsoft.com/en-us/azure/ai-services/computer-vision/language-support)
 - [OCR Best Practices](https://learn.microsoft.com/en-us/azure/ai-services/computer-vision/how-to/call-read-api)
 - [Sample Code Repository](https://github.com/Azure-Samples/cognitive-services-quickstart-code)
-
-</div>
 
 ---
 

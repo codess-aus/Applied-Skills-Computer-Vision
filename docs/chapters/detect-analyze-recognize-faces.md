@@ -241,8 +241,6 @@ For scenarios where full facial recognition isn't needed:
 - Use aggregate analytics instead of individual tracking
 - Consider alternative biometric methods
 
-<div class="resources-section">
-
 ## 📚 Resources
 
 - [Azure Face API Documentation](https://learn.microsoft.com/en-us/azure/ai-services/computer-vision/overview-identity)
@@ -251,8 +249,6 @@ For scenarios where full facial recognition isn't needed:
 - [Responsible AI for Face](https://learn.microsoft.com/en-us/legal/cognitive-services/face/transparency-note)
 - [Privacy and Security Guidelines](https://learn.microsoft.com/en-us/azure/ai-services/computer-vision/identity-privacy-security)
 - [Face API Pricing](https://azure.microsoft.com/en-us/pricing/details/cognitive-services/face-api/)
-
-</div>
 
 ---
 

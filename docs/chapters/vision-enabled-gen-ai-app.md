@@ -319,8 +319,6 @@ prompt = "Generate an accessible alt text description for this image that would 
 prompt = "This is a product image. Describe the product, its key features, condition, and suggest an appropriate product category and title for an e-commerce listing."
 ```
 
-<div class="resources-section">
-
 ## 📚 Resources
 
 - [Azure OpenAI Service Documentation](https://learn.microsoft.com/en-us/azure/ai-services/openai/)
@@ -329,8 +327,6 @@ prompt = "This is a product image. Describe the product, its key features, condi
 - [Prompt Engineering Guide](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/prompt-engineering)
 - [Responsible AI Guidelines](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/responsible-ai)
 - [Azure OpenAI Pricing](https://azure.microsoft.com/en-us/pricing/details/cognitive-services/openai-service/)
-
-</div>
 
 ---
 

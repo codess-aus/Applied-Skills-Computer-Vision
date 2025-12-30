@@ -265,8 +265,6 @@ Export trained models for offline use:
 - **Monitor performance**: Track precision/recall over iterations
 - **Version models**: Keep previous iterations as backups
 
-<div class="resources-section">
-
 ## 📚 Resources
 
 - [Azure Custom Vision Documentation](https://learn.microsoft.com/en-us/azure/ai-services/custom-vision-service/)
@@ -275,8 +273,6 @@ Export trained models for offline use:
 - [Best Practices Guide](https://learn.microsoft.com/en-us/azure/ai-services/custom-vision-service/getting-started-improving-your-classifier)
 - [Export Model Documentation](https://learn.microsoft.com/en-us/azure/ai-services/custom-vision-service/export-your-model)
 - [Custom Vision Pricing](https://azure.microsoft.com/en-us/pricing/details/cognitive-services/custom-vision-service/)
-
-</div>
 
 ---
 
