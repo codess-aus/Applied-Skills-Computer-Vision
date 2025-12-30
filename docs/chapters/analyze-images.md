@@ -129,43 +129,43 @@ graph LR
 
 ### 🎯 Practice Questions
 
-1. Spot the Scene!
+**1. Spot the Scene!**
 
-You’ve just arrived in a new city. Using image analysis, your phone shows “historic building” and “bicycle” as tags. What’s the likely scene, and how might the app decide which tags to suggest?
+You've just arrived in a new city. Using image analysis, your phone shows "historic building" and "bicycle" as tags. What's the likely scene, and how might the app decide which tags to suggest?
 
-2. What’s Hiding in the Text?
+---
+
+**2. What's Hiding in the Text?**
 
 Snap a photo of a coffee shop menu. How can OCR (Optical Character Recognition) in the Computer Vision service help you find out where the cappuccinos are listed? Write a simple sentence that Python could use to extract the word “Cappuccino” from the image.
 
-3. Emojis and Object Detection!
+---
 
-Imagine a program that analyzes your uploaded photo and adds emojis automatically—🍕 for pizza, 🐶 for dogs, etc. What kinds of features in an image would the software need to look for to assign these emojis correctly?
+**4. Describe It Like You're an AI**
 
-4. Describe It Like You’re an AI
+Look at a random picture around you (or find one online). Quickly describe it in just one or two sentences—as if you're the Computer Vision service. For example: "A brown dog is running on green grass." What kinds of image features might help an AI generate your description?
 
-Look at a random picture around you (or find one online). Quickly describe it in just one or two sentences—as if you’re the Computer Vision service. For example: “A brown dog is running on green grass.” What kinds of image features might help an AI generate your description?
+---
 
-5. Guess the Age of a Meme
+**6. Translating Text with Vision**
 
-Some memes are instantly recognizable, but how could an image analysis system guess how old a meme template is? What image properties (color, style, text type) might it analyze?
+Let's say you're traveling in Japan and use your phone to analyze a street sign's image for translation. What challenges might the image analyzer face, and how could you improve its accuracy?
 
-6. Translating Text with Vision
+---
 
-Let’s say you’re traveling in Japan and use your phone to analyze a street sign’s image for translation. What challenges might the image analyzer face, and how could you improve its accuracy?
+**8. Building Your Own Labeler**
 
-7. Filter Fiasco: What’s the Impact?
+Pretend you're training a robot to recognize different kinds of fruit. What's one super-important feature you'd tell the robot to look at when sorting apples from oranges, using image analysis?
 
-If you slap a photo filter (like grayscale or heavy blur) on an image before analyzing it, what kinds of things might get harder for a computer to recognize? Why?
+---
 
-8. Building Your Own Labeler
+**9. Find the Odd One Out**
 
-Pretend you’re training a robot to recognize different kinds of fruit. What’s one super-important feature you’d tell the robot to look at when sorting apples from oranges, using image analysis?
+You analyze a group photo and get tags: "Person," "Smiling," "Cat," "Outdoors." Which tag seems a little surprising, and how might the AI have spotted it?
 
-9. Find the Odd One Out
+---
 
-You analyze a group photo and get tags: “Person,” “Smiling,” “Cat,” “Outdoors.” Which tag seems a little surprising, and how might the AI have spotted it?
-
-10. Fun With Bounding Boxes!
+**10. Fun With Bounding Boxes!**
 
 In object detection, why do computers use rectangles or boxes around things they spot? Bonus: Sketch a simple scene and imagine where the boxes would go!
 
