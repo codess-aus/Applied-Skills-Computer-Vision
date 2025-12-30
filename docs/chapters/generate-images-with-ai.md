@@ -1,12 +1,7 @@
 # Generate Images with AI
 
-<div class="hero-section">
-  <div class="hero-overlay">
-    <div class="hero-content">
-      <h1>Generate Images with AI</h1>
-      <p>Create stunning images from text descriptions using Azure OpenAI DALL-E</p>
-    </div>
-  </div>
+<div class="hero-container">
+  <img src="../../assets/images/imagegeneration.png" alt="Image Generation mind map" class="hero-image">
 </div>
 
 ## Overview

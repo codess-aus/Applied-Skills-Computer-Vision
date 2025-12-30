@@ -1,12 +1,7 @@
 # Detect Objects in Images
 
-<div class="hero-section">
-  <div class="hero-overlay">
-    <div class="hero-content">
-      <h1>Detect Objects in Images</h1>
-      <p>Locate and identify multiple objects within images using Azure Custom Vision and AI Vision</p>
-    </div>
-  </div>
+<div class="hero-container">
+  <img src="../../assets/images/objectdetection.png" alt="Object Detection mind map" class="hero-image">
 </div>
 
 ## Overview

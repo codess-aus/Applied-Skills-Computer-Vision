@@ -1,12 +1,7 @@
 # Analyze Video
 
-<div class="hero-section">
-  <div class="hero-overlay">
-    <div class="hero-content">
-      <h1>Analyze Video</h1>
-      <p>Process and extract insights from video content using Azure Video Indexer</p>
-    </div>
-  </div>
+<div class="hero-container">
+  <img src="../../assets/images/videoanalysis.png" alt="Video Analysis mind map" class="hero-image">
 </div>
 
 ## Overview

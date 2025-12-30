@@ -1,12 +1,7 @@
 # Detect, Analyze and Recognize Faces
 
-<div class="hero-section">
-  <div class="hero-overlay">
-    <div class="hero-content">
-      <h1>Detect, Analyze and Recognize Faces</h1>
-      <p>Detect, analyze, and recognize human faces using Azure Face API</p>
-    </div>
-  </div>
+<div class="hero-container">
+  <img src="../../assets/images/facedetection.png" alt="Face Detection mind map" class="hero-image">
 </div>
 
 ## Overview

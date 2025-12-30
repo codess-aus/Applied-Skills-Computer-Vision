@@ -1,12 +1,7 @@
 # Read Text in Images
 
-<div class="hero-section">
-  <div class="hero-overlay">
-    <div class="hero-content">
-      <h1>Read Text in Images</h1>
-      <p>Extract text from images and documents using Azure AI Vision OCR capabilities</p>
-    </div>
-  </div>
+<div class="hero-container">
+  <img src="../../assets/images/ocr.png" alt="OCR mind map" class="hero-image">
 </div>
 
 ## Overview

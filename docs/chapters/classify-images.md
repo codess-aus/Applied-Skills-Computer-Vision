@@ -1,12 +1,7 @@
 # Classify Images
 
-<div class="hero-section">
-  <div class="hero-overlay">
-    <div class="hero-content">
-      <h1>Classify Images</h1>
-      <p>Build custom image classification models using Azure Custom Vision</p>
-    </div>
-  </div>
+<div class="hero-container">
+  <img src="../../assets/images/classifyimages.png" alt="Image Classification mind map" class="hero-image">
 </div>
 
 ## Overview

@@ -1,12 +1,7 @@
 # Develop a Vision-Enabled Gen AI App
 
-<div class="hero-section">
-  <div class="hero-overlay">
-    <div class="hero-content">
-      <h1>Vision-Enabled Gen AI App</h1>
-      <p>Integrate computer vision with generative AI using Azure OpenAI and GPT-4 Vision</p>
-    </div>
-  </div>
+<div class="hero-container">
+  <img src="../../assets/images/visiongenai.png" alt="Vision-Enabled Gen AI mind map" class="hero-image">
 </div>
 
 ## Overview
