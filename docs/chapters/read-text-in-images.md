@@ -248,6 +248,9 @@ Results are organized hierarchically:
     4. Visualize bounding boxes on the original image
     5. Try with both printed and handwritten text samples
 
+[Lab Exercize](https://microsoftlearning.github.io/mslearn-ai-vision/Instructions/Labs/02-ocr.html)
+
+
 ### Performance Tips
 
 - **Preprocessing**: Enhance image quality before OCR
