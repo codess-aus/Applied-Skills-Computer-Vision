@@ -176,9 +176,6 @@ Try this exercise to reinforce your learning:
 - [Azure AI Vision Documentation](https://learn.microsoft.com/en-us/azure/ai-services/computer-vision/)
 - [Analyze Images Quickstart](https://learn.microsoft.com/en-us/azure/ai-services/computer-vision/quickstarts-sdk/image-analysis-client-library)
 - [Image Analysis API Reference](https://learn.microsoft.com/en-us/rest/api/computervision/analyze-image)
-- [Azure AI Vision Pricing](https://azure.microsoft.com/en-us/pricing/details/cognitive-services/computer-vision/)
-- [Python SDK Documentation](https://learn.microsoft.com/en-us/python/api/azure-cognitiveservices-vision-computervision/)
-- [Best Practices Guide](https://learn.microsoft.com/en-us/azure/ai-services/computer-vision/how-to/image-retrieval)
 - [Analyze Images Applied Skills](https://learn.microsoft.com/en-us/training/modules/analyze-images/)
 
 ---
