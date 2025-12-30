@@ -105,7 +105,11 @@
 
 .practice-questions h3 {
   margin-top: 0;
-  color: #EB144C;
+  background: linear-gradient(135deg, #EB144C 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 600;
 }
 
 .practice-questions ol {
@@ -128,6 +132,11 @@
 
 .resources-section h2 {
   margin-top: 0;
+  background: linear-gradient(135deg, #EB144C 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 700;
 }
 
 .resources-section ul {

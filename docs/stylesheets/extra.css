@@ -21,14 +21,17 @@ html {
 
 /* Improve link styling */
 .md-typeset a {
-  color: var(--accent-color);
+  background: linear-gradient(135deg, #EB144C 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
   text-decoration: none;
   border-bottom: 1px solid transparent;
   transition: border-bottom-color 0.2s ease;
 }
 
 .md-typeset a:hover {
-  border-bottom-color: var(--accent-color);
+  border-bottom-color: #EB144C;
 }
 
 /* Enhanced code blocks */
