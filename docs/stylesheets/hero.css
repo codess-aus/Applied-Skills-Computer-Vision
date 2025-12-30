@@ -6,7 +6,7 @@
   margin: -24px -24px 32px -24px;
   overflow: hidden;
   border-radius: 0 0 8px 8px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #667eea 0%, #EB144C 100%);
 }
 
 .hero-image {
@@ -85,7 +85,7 @@
 }
 
 .content-section h2 {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #667eea 0%, #EB144C 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -149,7 +149,7 @@
 
 /* Dark mode adjustments */
 [data-md-color-scheme="slate"] .hero-section {
-  background: linear-gradient(135deg, #5568d3 0%, #6a4c8f 100%);
+  background: linear-gradient(135deg, #5568d3 0%, #EB144C 100%);
 }
 
 [data-md-color-scheme="slate"] .hero-overlay {
