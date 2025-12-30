@@ -1,5 +1,22 @@
 // Additional JavaScript for enhanced functionality
 document.addEventListener('DOMContentLoaded', function() {
+  // Initialize Material theme color scheme if not set
+  const html = document.documentElement;
+  if (!html.hasAttribute('data-md-color-scheme')) {
+    // Check if there's a stored preference
+    const storedScheme = localStorage.getItem('data-md-color-scheme');
+    if (storedScheme) {
+      html.setAttribute('data-md-color-scheme', storedScheme);
+      html.setAttribute('data-md-color-primary', storedScheme === 'slate' ? 'deep-purple' : 'indigo');
+      html.setAttribute('data-md-color-accent', 'purple');
+    } else {
+      // Default to light mode
+      html.setAttribute('data-md-color-scheme', 'default');
+      html.setAttribute('data-md-color-primary', 'indigo');
+      html.setAttribute('data-md-color-accent', 'purple');
+    }
+  }
+
   // Add smooth scroll to anchor links
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
@@ -102,4 +119,27 @@ const prefersDark = window.matchMedia('(prefers-color-scheme: dark)');
 prefersDark.addEventListener('change', (e) => {
   // Theme is automatically handled by Material for MkDocs
   console.log('Theme preference changed:', e.matches ? 'dark' : 'light');
+});
+
+// Handle palette toggle clicks
+document.addEventListener('click', function(e) {
+  const paletteToggle = e.target.closest('[data-md-component="palette"]');
+  if (paletteToggle) {
+    setTimeout(() => {
+      const html = document.documentElement;
+      const input = paletteToggle.querySelector('input:checked');
+      if (input) {
+        const scheme = input.getAttribute('data-md-color-scheme');
+        const primary = input.getAttribute('data-md-color-primary');
+        const accent = input.getAttribute('data-md-color-accent');
+        
+        if (scheme) {
+          html.setAttribute('data-md-color-scheme', scheme);
+          html.setAttribute('data-md-color-primary', primary || (scheme === 'slate' ? 'deep-purple' : 'indigo'));
+          html.setAttribute('data-md-color-accent', accent || 'purple');
+          localStorage.setItem('data-md-color-scheme', scheme);
+        }
+      }
+    }, 50);
+  }
 });
