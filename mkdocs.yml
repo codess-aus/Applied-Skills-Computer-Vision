@@ -1,0 +1,170 @@
+site_name: Applied Skills - Computer Vision
+site_description: Learn the practical skills to develop a vision-enabled generative AI application on Azure
+site_author: codess-aus
+site_url: https://codess-aus.github.io/Applied-Skills-Computer-Vision/
+
+# Repository
+repo_name: codess-aus/Applied-Skills-Computer-Vision
+repo_url: https://github.com/codess-aus/Applied-Skills-Computer-Vision
+edit_uri: edit/main/docs/
+
+# Copyright
+copyright: Copyright &copy; 2025 codess-aus
+
+# Theme Configuration
+theme:
+  name: material
+  custom_dir: overrides
+  features:
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - toc.follow
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - search.share
+    - header.autohide
+    - content.code.copy
+    - content.code.annotate
+    - content.tabs.link
+    - content.tooltips
+    - announce.dismiss
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: purple
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep purple
+      accent: purple
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+  icon:
+    logo: material/eye-circle
+    repo: fontawesome/brands/github
+  favicon: assets/favicon.png
+
+# Additional CSS and JavaScript
+extra_css:
+  - stylesheets/extra.css
+  - stylesheets/hero.css
+
+extra_javascript:
+  - javascripts/extra.js
+
+# Extensions
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# Plugins
+plugins:
+  - search:
+      separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+  - minify:
+      minify_html: true
+  - glightbox:
+      touchNavigation: true
+      loop: false
+      effect: zoom
+      slide_effect: slide
+      width: 100%
+      height: auto
+      zoomable: true
+      draggable: true
+      skip_classes:
+        - no-lightbox
+      auto_caption: false
+      caption_position: bottom
+
+# Extra
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/codess-aus
+      name: GitHub
+  generator: false
+  analytics:
+    feedback:
+      title: Was this page helpful?
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: This page was helpful
+          data: 1
+          note: >-
+            Thanks for your feedback!
+        - icon: material/emoticon-sad-outline
+          name: This page could be improved
+          data: 0
+          note: >-
+            Thanks for your feedback! Help us improve by providing more details.
+
+# Navigation
+nav:
+  - Home: index.md
+  - Chapters:
+      - Analyze Images: chapters/analyze-images.md
+      - Read Text in Images: chapters/read-text-in-images.md
+      - Detect, Analyze and Recognize Faces: chapters/detect-analyze-recognize-faces.md
+      - Classify Images: chapters/classify-images.md
+      - Detect Objects in Images: chapters/detect-objects-in-images.md
+      - Analyze Video: chapters/analyze-video.md
+      - Develop a Vision-Enabled Gen AI App: chapters/vision-enabled-gen-ai-app.md
+      - Generate Images with AI: chapters/generate-images-with-ai.md
+  - Resources: resources.md
+  - About: about.md

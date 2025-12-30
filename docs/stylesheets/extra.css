@@ -1,0 +1,105 @@
+/* Additional custom styles for the site */
+:root {
+  --gradient-start: #667eea;
+  --gradient-end: #764ba2;
+  --accent-color: #667eea;
+}
+
+/* Smooth scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom gradient for headers in content */
+.md-typeset h1 {
+  background: linear-gradient(135deg, var(--gradient-start) 0%, var(--gradient-end) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 700;
+}
+
+/* Improve link styling */
+.md-typeset a {
+  color: var(--accent-color);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom-color 0.2s ease;
+}
+
+.md-typeset a:hover {
+  border-bottom-color: var(--accent-color);
+}
+
+/* Enhanced code blocks */
+.md-typeset code {
+  border-radius: 4px;
+  padding: 2px 6px;
+}
+
+/* Improved table styling */
+.md-typeset table:not([class]) {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer enhancement */
+.md-footer {
+  background: linear-gradient(135deg, rgba(102, 126, 234, 0.05) 0%, rgba(118, 75, 162, 0.05) 100%);
+}
+
+/* Navigation enhancement */
+.md-tabs {
+  background: linear-gradient(135deg, rgba(102, 126, 234, 0.03) 0%, rgba(118, 75, 162, 0.03) 100%);
+}
+
+/* Accessibility improvements */
+.md-typeset :focus-visible {
+  outline: 2px solid var(--accent-color);
+  outline-offset: 2px;
+}
+
+/* Print styles */
+@media print {
+  .hero-section {
+    height: auto;
+    page-break-inside: avoid;
+  }
+  
+  .md-header,
+  .md-sidebar,
+  .md-footer {
+    display: none;
+  }
+}
+
+/* Custom button styles */
+.md-button {
+  background: linear-gradient(135deg, var(--gradient-start) 0%, var(--gradient-end) 100%);
+  border: none;
+  color: white;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.md-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+}
+
+/* Responsive improvements */
+@media screen and (max-width: 76.1875em) {
+  .md-nav__title {
+    background: linear-gradient(135deg, var(--gradient-start) 0%, var(--gradient-end) 100%);
+  }
+}
+
+/* Card-like styling for admonitions */
+.md-typeset .admonition {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.2s ease;
+}
+
+.md-typeset .admonition:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
