@@ -1,6 +1,8 @@
 # Analyze Images
 
-<div class="hero-section" style="background-image: url('../assets/imageanalysis.png'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+
+<div class="hero-container">
+  <img src="../../assets/images/imageanalysis.png" alt="Image Analysis mind map" class="hero-image">
 </div>
 
 ## Overview
